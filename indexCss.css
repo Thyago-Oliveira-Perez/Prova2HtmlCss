@@ -1,0 +1,111 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1, h2, a, p{
+
+    font-family: poppins;
+
+}
+
+a, p{
+
+    font-size: 20px;
+
+}
+
+header{
+
+    background-color: black;
+
+}
+
+.container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+
+}
+
+.logo img{
+
+    width: 150px;
+    height: 100px;
+    align-items: flex-start;
+
+}
+
+.barraSuperior a{
+
+    color: white;
+    text-decoration: none;
+    padding: 80px;
+
+}
+
+body{
+
+    background-image: url(./wallpapersden.com_k-nebula-and-stars_3990x3228.jpg);
+    background-size: 100%;
+
+}
+
+.container2 h1{
+
+    text-align: center;
+    color: white;
+
+}
+
+.logoProjeto{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+
+}
+
+
+.contacts a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.contacts{
+
+    padding: 20px;
+
+}
+
+.copy{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.copy p{
+
+    padding: 0 20px;
+
+}
