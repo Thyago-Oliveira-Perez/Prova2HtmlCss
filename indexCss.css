@@ -18,6 +18,12 @@ a, p{
 
 }
 
+html, body{
+
+    height: 100%;
+
+}
+
 header{
 
     background-color: black;
@@ -71,13 +77,18 @@ body{
 
 }
 
+main{
+
+    min-height: 80%;
+
+}
+
 footer{
 
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
-    bottom: 0;
+    bottom:0;
     width: 100%;
     background-color: white;
 
